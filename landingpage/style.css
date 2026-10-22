@@ -10,13 +10,102 @@ a{
     text-decoration: none;
     color: black;
 }
+
+ul{
+    list-style: none;
+}
+
+/* sub nav bar css */
+
 .sub-nav{
-    text-align: right;
-        padding: 4px 90px 4px 48px ;
+    display: flex;
+    justify-content: right;
+    padding: 6px 50px;
 }
 
 .sub-nav ul li{
     display: inline;
     padding: 0px 10px;
     font-size: 14px;
+}
+
+/* main nav bar css */
+
+.main-nav{
+    display: grid;
+    grid-template-columns:  repeat(3, minmax(0, 1fr));
+    align-items: center;
+    background-color: rgb(220, 219, 219);
+}
+
+.logo-img{
+  width:80px;
+  margin-left: 60px;
+}
+
+.mid-nav {
+    display: inline;
+    justify-content: center;
+
+}
+
+.main-nav li{
+    margin: 4px 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.right-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar{
+display: flex;
+border-radius: 20px;
+align-items: center;
+}
+
+.search-img{
+  margin: 0px 2px;
+  border-radius: 50%;
+  background-color: rgb(199, 217, 217);
+}
+
+.search-bar input{
+    border: none;
+    background: transparent;
+    outline: none;
+    margin-left: 8px;
+    font-size: 18px;
+    padding: 4px 6px;
+    width: 100px;
+}
+
+.search-bar:hover{
+    background-color: gainsboro;
+}
+
+.main-nav ul{
+    display: flex;
+    margin-left: 4px;
+}
+
+/* main page offer section css */
+
+.offer-section{
+    text-align: center;
+    padding: 4px;
+}
+
+.offer-section p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.offer-section a{
+    font-size: 12px;
+    font-weight: 100;
+    text-decoration: underline;
 }
