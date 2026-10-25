@@ -68,7 +68,7 @@ align-items: center;
 }
 
 .search-img{
-  margin: 0px 2px;
+  margin: 0px 0px;
   border-radius: 50%;
   background-color: rgb(199, 217, 217);
 }
@@ -84,7 +84,7 @@ align-items: center;
 }
 
 .search-bar:hover{
-    background-color: gainsboro;
+    background-color: rgb(247, 237, 237);
 }
 
 .main-nav ul{
