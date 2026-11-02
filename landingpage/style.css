@@ -96,7 +96,7 @@ align-items: center;
 
 .offer-section{
     text-align: center;
-    padding: 4px;
+    padding: 10px;
 }
 
 .offer-section p{
@@ -108,4 +108,42 @@ align-items: center;
     font-size: 12px;
     font-weight: 100;
     text-decoration: underline;
+}
+.offer a img{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+}
+
+
+
+/* options css */
+.options{
+    display: flex;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;    
+}
+
+.options a img{
+    width: 100%;
+}
+
+/* footer css */
+
+footer{
+    margin: 0 60px;
+    border-top: 1px solid black;
+}
+
+footer ul{
+    display: flex;
+    justify-content: left;
+    margin: 40px 0px ;
+
+}
+
+footer ul li{
+    margin: 10px;
 }
